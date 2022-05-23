@@ -8,7 +8,7 @@
 {
     "distutils": {
         "depends": [
-            "image_utils/image/builtin/builtin.h"
+            "imagededup/builtin/builtin.h"
         ],
         "extra_compile_args": [
             "-O3",
@@ -24,12 +24,12 @@
             "-nodefaultlibs"
         ],
         "include_dirs": [
-            "image_utils/image"
+            "imagededup"
         ],
         "language": "c++",
         "name": "brute_force_cython_ext",
         "sources": [
-            "image_utils/image/brute_force_cython_ext.pyx"
+            "imagededup/brute_force_cython_ext.pyx"
         ]
     },
     "module_name": "brute_force_cython_ext"
@@ -873,7 +873,7 @@ static const char *__pyx_cfilenm = __FILE__;
 static const char *__pyx_filename;
 
 static const char *__pyx_f[] = {
-    "image_utils/image/brute_force_cython_ext.pyx",
+    "imagededup/brute_force_cython_ext.pyx",
     "stringsource",
 };
 
@@ -1226,7 +1226,7 @@ static const char __pyx_k_all_filenames[] = "all_filenames";
 static const char __pyx_k_query_hash_val[] = "query_hash_val";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_brute_force_cython_ext[] = "brute_force_cython_ext";
-static const char __pyx_k_image_utils_image_brute_force_cy[] = "image_utils/image/brute_force_cython_ext.pyx";
+static const char __pyx_k_image_utils_image_brute_force_cy[] = "imagededup/brute_force_cython_ext.pyx";
 static PyObject *__pyx_n_s_all_filenames;
 static PyObject *__pyx_n_s_all_hashes;
 static PyObject *__pyx_n_s_brute_force_cython_ext;

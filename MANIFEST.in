@@ -1,0 +1,5 @@
+include imagededup/builtin/builtin.h
+include imagededup/builtin/README.md
+include imagededup/brute_force_cython_ext.pyx
+include LICENSE
+include requirements.txt
