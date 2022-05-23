@@ -72,5 +72,6 @@ setup(
         'Pillow>=8.1.2',
         'tqdm',
     ],
-    ext_modules=ext_modules
+    ext_modules=ext_modules,
+    packages=find_packages(exclude=('tests',)),
 )
