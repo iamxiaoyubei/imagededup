@@ -62,7 +62,7 @@ else:
                         ]
 
 setup(
-    name='imagededup',
+    name='imagededup-phash',
     version='0.3.0',
     author='Tanuj Jain, Christopher Lennan, Zubin John, Dat Tran',
     author_email='tanuj.jain.10@gmail.com, christopherlennan@gmail.com, zrjohn@yahoo.com, datitran@gmail.com',
