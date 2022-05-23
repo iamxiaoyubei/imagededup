@@ -1,8 +1,4 @@
-tensorflow>1.0
-Pillow<7.0.0
+Pillow>=8.1.2
 tqdm
-scikit-learn
-PyWavelets~=1.1.1
-matplotlib
 # Development dependencies
 cython>=0.29
